@@ -1,0 +1,29 @@
+Operations on Matrix
+You are given
+M
+ and
+N
+ representing the number of rows and columns of matrix respectively. And
+M
+∗
+N
+ elements are provided for each matrix. There are two matrices in the input.
+Print the Addition and Multiplication of the matrices.
+
+Input format
+First line contains two integers
+M
+ and
+N
+
+On each of the next
+2
+∗
+M
+ lines,
+N
+ integers are provided.
+
+Output format
+Print the matrix representing the addition
+Print the matrix representing the multiplication

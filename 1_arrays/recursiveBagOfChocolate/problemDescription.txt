@@ -1,0 +1,53 @@
+Bag of Chocolates
+PrepBuddy has recently got a magical trunk. There are an infinite number of boxes in it, where
+i
+t
+h
+ box is connected with
+(
+i
+-
+1
+)
+t
+h
+ box.
+
+Initially, there is
+K
+ number of chocolates in box
+0
+. The number of chocolates in box
+i
+ is
+i
+ times the number of chocolates in
+(
+i
+-
+1
+)
+t
+h
+ box.
+
+Help PrepBuddy to find the number of chocolates in the given box number
+N
+.
+
+Input format
+The first line will contain the integer
+T
+, the number of test cases.
+Each test case consists of two space-separated integers
+N
+ and
+K
+.
+Output format
+For each test case, output the answer to PrepBuddy's query. Since the output can be very large, output the answer modulo
+10
+6
++
+3
+.
