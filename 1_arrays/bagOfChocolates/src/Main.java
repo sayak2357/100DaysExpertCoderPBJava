@@ -1,23 +1,22 @@
 import java.util.*;
 import java.io.*;
-
 public class Main {
     public static void main(String args[]) throws IOException {
-
         Scanner sc = new Scanner(System.in);
-        int limit = 1000003;
-        int[] arr = new int[limit];
+        long limit = 1000003;
+        long[] arr = new long[(int)limit+1];
         arr[0]=1;
-        for(int i=1;i<limit;i++){
-            arr[i] = i*arr[i-1];
+        for(int i=1;i<(int)limit;i++){
+            arr[i] = (i*arr[i-1])%limit;
         }
-
-        int tc = sc.nextInt();
-        for(int i=0;i<tc;i++){
-            int n = sc.nextInt();
-            int k = sc.nextInt();
-            System.out.println((arr[n]*k)%limit);
+        long tc = sc.nextInt();
+        for(int i=0;i<(int)tc;i++){
+            long n = sc.nextLong();
+            long k = sc.nextLong()%limit;
+            if(n>limit)
+                n=limit;
+            //System.out.print(n+", "+k);
+            System.out.println( (arr[(int)n]*(k))%limit );
         }
-
     }
 }
