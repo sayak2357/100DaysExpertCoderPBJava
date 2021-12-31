@@ -1,0 +1,123 @@
+Minus Minus is Plus
+(
+−
+)
+∗
+(
+−
+)
+ ​makes
+(
++
+)
+￼, minus minus makes plus. We have been performing this operation since the school days.
+PrepBuddy is sitting in a park and two students are sitting beside him each having one string. Lets say student1 has string
+s
+￼ and student2 has string
+t
+￼. Both strings are made up of just two signs
+−
+￼ and
++
+￼ and they are wondering whether string
+t
+￼ can be obtained from string
+s
+￼ by using an operation zero or more times.
+The allowed operation is:
+They can choose any two adjacent minus signs and replace them with a single plus sign. One such operation reduces the length of the string by one.
+PrepBuddy asks you to help the students
+
+Input Format
+The first line contains an integer
+T
+, denoting the number of test cases.
+Each test case consists of two lines.
+First-line contains string
+s
+.
+Second line contains string
+t
+.
+
+Output Format
+For each test case on a new line, print YES or NO depending upon whether it is possible to get
+t
+ from
+s
+.
+
+Constraints
+1
+<=
+T
+<=
+10
+
+1
+<=
+|
+s
+|
+<=
+10
+7
+, where
+|
+s
+|
+ represents the length of the string.
+1
+<=
+|
+t
+|
+<=
+10
+7
+, where
+|
+t
+|
+ represents the length of the string.
+
+Time Limit
+1
+ ​secon
+
+Example
+Input
+4
+
+-+--+
+-+++
+--------
+-+--+-
+--
+---
++++
++++
+
+Output
+YES
+YES
+NO
+YES
+
+Sample test case explanation
+In the first test case
+string
+s
+=-+--+
+the
+3
+r
+d
+ and
+4
+r
+t
+h
+ minus sign can be converted to plus sign and we will get -+++ which is equal to string
+t
+. Hence YES is the output.
