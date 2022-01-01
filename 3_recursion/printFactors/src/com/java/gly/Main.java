@@ -17,8 +17,7 @@ public class Main {
         }
         for(int i=p;i<=num;i++){
             if(num%i==0){
-                String temp = factors+i+" ";
-                factorise(num/i,i,temp);
+                factorise(num/i,i,factors+i+" ");
             }
         }
         return;
