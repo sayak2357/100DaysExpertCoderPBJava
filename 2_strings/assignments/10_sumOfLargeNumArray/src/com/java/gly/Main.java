@@ -1,7 +1,5 @@
 package com.java.gly;
 
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
@@ -11,108 +9,62 @@ public class Main {
         int tc = sc.nextInt();
         while(tc-->0){
             int N = sc.nextInt();
-            int K = 0;
             String[] arr = new String[N];
-            ArrayList<Integer> result;
             for(int i=0;i<N;i++){
                 arr[i] = sc.next();
-                K = Integer.max(K,arr[i].length());
             }
-            result = sumOfLargeNumbers(arr, N, K);
-            String rs = "";
-            Collections.reverse(result);
-            int i = 0;
-
-            while (i < result.size())
-            {
-
-                rs += result.get(i);
-                i++;
+            String result;
+            if(N==1)
+                result = arr[0];
+            else{
+                result = findSum(arr[0],arr[1]);
+                for(int i=2;i<N;i++){
+                    result = findSum(result,arr[i]);
+                }
             }
-            System.out.println(rs);
+            System.out.println(result);
+
         }
     }
-
-    static ArrayList<Integer> sumOfLargeNumbers(String v[],
-                                  int k, int N)
+    static String findSum(String str1, String str2)
     {
 
-        // Stores the array of large
-        // numbers in integer format
-        ArrayList<
-                ArrayList<Integer>> x = new ArrayList<>(1000000);
-
-        for(int i = 0; i < k; i++)
-            x.add(new ArrayList<Integer>());
-
-        for(int i = 0; i < k; i++)
-        {
-            for(int j = 0; j < N; j++)
-            {
-
-                // Convert each element
-                // from character to integer
-                x.get(i).add(v[i].charAt(j) - '0');
-            }
+        if (str1.length() > str2.length()){
+            String t = str1;
+            str1 = str2;
+            str2 = t;
         }
 
-        // Stores the carry
+
+        String str = "";
+
+        int n1 = str1.length(), n2 = str2.length();
+
+        str1=new StringBuilder(str1).reverse().toString();
+        str2=new StringBuilder(str2).reverse().toString();
+
         int carry = 0;
-
-        // Stores the result
-        // of summation
-        ArrayList<Integer> result = new ArrayList<>();
-
-        for(int i = N - 1; i >= 0; i--)
+        for (int i = 0; i < n1; i++)
         {
 
-            // Initialize the sum
-            int sum = 0;
-
-            for(int j = 0; j < k; j++)
-
-                // Calculate sum
-                sum += x.get(j).get(i);
-
-            // Update the sum by adding
-            // existing carry
-            sum += carry;
-            int temp = sum;
-
-            // Store the number of digits
-            int count = 0;
-            while (temp > 9)
-            {
-                temp = temp % 10;
-
-                // Increase count of digits
-                count++;
-            }
-
-            long l = (long)Math.pow(10, count);
-            if (l != 1)
-
-                // If the number exceeds 9,
-                // Store the unit digit in carry
-                carry = (int)(sum / l);
-
-            // Store the rest of the sum
-            sum = sum % 10;
-
-            // Append digit by digit
-            // into result array
-            result.add(sum);
+            int sum = ((int)(str1.charAt(i) - '0') +
+                    (int)(str2.charAt(i) - '0') + carry);
+            str += (char)(sum % 10 + '0');
+            carry = sum / 10;
         }
-        while (carry != 0)
+
+        for (int i = n1; i < n2; i++)
         {
-            int a = carry % 10;
-
-            // Append result until
-            // carry is 0
-            result.add(a);
-            carry = carry / 10;
+            int sum = ((int)(str2.charAt(i) - '0') + carry);
+            str += (char)(sum % 10 + '0');
+            carry = sum / 10;
         }
 
-        return result;
+        if (carry > 0)
+            str += (char)(carry + '0');
+
+        str = new StringBuilder(str).reverse().toString();
+
+        return str;
     }
 }
