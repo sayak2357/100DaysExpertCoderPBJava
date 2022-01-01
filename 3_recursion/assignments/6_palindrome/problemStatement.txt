@@ -1,0 +1,27 @@
+Same String
+PrepBuddy is fascinated with the type of strings that are the same when read from beginning to end and from end to beginning.
+Given a string, your task is to help PrepBuddy decide whether the string will fascinate him or not.
+
+Input format
+First line contains test case integer
+T
+.
+Each of the next
+T
+ lines contains a string.
+
+Note: The string will only contain lowercase characters.
+
+Output format
+Print 'Yes'(without quotes) if PrepBuddy is fascinated by the string.
+Print 'No'(without quotes) if PrepBuddy is not fascinated by the string.
+
+Example
+Input
+2
+prerp
+byte
+
+Output
+Yes
+No

@@ -1,0 +1,132 @@
+Crack the password
+Arnab was given a task to a crack password(maximum length of password is
+4
+). Given a length
+l
+, Arnab wants to try all password of length
+l
+.
+
+Help him to find all possible passwords of length
+l
+ using recursion.
+
+Digits of the password are from
+1
+ to
+9
+.
+
+Input format
+First line contains integer
+t
+, denoting number of testcases.
+For each testcase :
+There is one integer
+l
+.
+
+Output format
+For each testcase print all the possible password seperated by new line.
+
+Constraints
+1
+<=
+t
+<=
+4
+
+1
+<=
+l
+<=
+4
+
+Example
+Input
+1
+2
+
+Output
+11
+12
+13
+14
+15
+16
+17
+18
+19
+21
+22
+23
+24
+25
+26
+27
+28
+29
+31
+32
+33
+34
+35
+36
+37
+38
+39
+41
+42
+43
+44
+45
+46
+47
+48
+49
+51
+52
+53
+54
+55
+56
+57
+58
+59
+61
+62
+63
+64
+65
+66
+67
+68
+69
+71
+72
+73
+74
+75
+76
+77
+78
+79
+81
+82
+83
+84
+85
+86
+87
+88
+89
+91
+92
+93
+94
+95
+96
+97
+98
+99
+
