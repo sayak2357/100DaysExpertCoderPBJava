@@ -1,0 +1,64 @@
+Palindromic sub-strings
+Arnab is given a string, he is told to divide the strings into substrings in which every substring is a palindrome.
+He is told to print all the possible divisions of the string.
+
+Print the divisions in the increasing order of length of substrings
+We will first compare the length of the first substring in one division and print the shorter one first.
+If the first substring's length is equal in both divisions then we will check the second substring and continue in this manner.
+i.e
+if one division is = a b baab
+and other division is = a bb a a b
+so the length first palindromic substring of both strings are same ( a ), so we check the second substring one is b and other bb
+So we will print
+a b baab before a bb a a b
+
+Order:
+a b baab
+a bb a a b
+
+Example:
+String: aaa
+
+Output:
+a a a
+a aa
+aa a
+aaa
+
+Input format
+First line contains integer
+t
+, number of testcases.
+For each testcase :
+There are one string
+s
+.
+
+Output format
+For each testcase, print all the possible space seprated divisions seperated by new line.
+
+Constraints
+1
+<=
+t
+<=
+100
+
+1
+<=
+|
+s
+|
+<=
+7
+
+Example
+Input
+1
+aaa
+
+Output
+a a a
+a aa
+aa a
+aaa
