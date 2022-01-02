@@ -6,9 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
-        System.out.print("enter number: ");
-        int num = sc.nextInt();
-        factorise(num,2,"1 ");
+        int tc = sc.nextInt();
+        while(tc-->0){
+            int num = sc.nextInt();
+            factorise(num,2,"1 ");
+        }
+
     }
     private static void factorise(int num, int p, String factors){
         if(num==1){

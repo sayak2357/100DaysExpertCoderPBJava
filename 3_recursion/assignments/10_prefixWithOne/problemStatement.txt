@@ -1,0 +1,38 @@
+Prefix with One
+Let's solve a recursion problem which will make your recursion even more stronger. You are given an integer n, you have to print all the possible strings of length
+n
+ containing 0 and 1 but there is a restriction on the way 0's and 1's are placed. The rule is, in all the strings that you print no. of 1's should be greater than or equal to that of 0's for any prefix of the string.
+
+Input
+First line contains an integer T, no of test cases. Then follows T test cases. Each test case consists of n.
+
+Output
+Print t lines, each containing all the possible strings of length
+n
+ containing 0 and 1.
+
+Constraints
+
+1
+<=
+T
+<=
+10
+
+
+1
+<=
+n
+<
+8
+
+Example
+Input:
+2
+3
+4
+
+Output:
+111 110 101
+1111 1110 1101 1100 1011 1010
+
