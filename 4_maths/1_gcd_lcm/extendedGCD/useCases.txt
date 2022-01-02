@@ -1,0 +1,1 @@
+Used to calculate MMI i.e modular multiplicative inverse of numbers
