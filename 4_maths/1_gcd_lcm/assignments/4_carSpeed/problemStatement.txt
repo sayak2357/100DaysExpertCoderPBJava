@@ -1,0 +1,169 @@
+Cars and Speed
+Himanshu is in love with BMW and Audi cars. He is wealthy and has a collection of them with the condition that the speed of any car doesn't exceed an integer value
+K
+. You are given two integers
+N
+ and
+M
+, the speed of BMW cars is multiple of
+N
+ and the speed of Audi cars is multiple of
+M
+.
+BMW car-1 has speed
+1
+∗
+N
+, car-2 has speed
+2
+∗
+N
+, car-3 has speed
+3
+∗
+N
+ and so on till the speed is
+<=
+K
+. That means the number of cars depends upon the multiples of
+N
+ that are
+<=
+K
+.
+The same goes for Audi cars.
+
+Himanshu wants to know the number of cars that has the same speed. Help him find the count.
+
+Input format
+The first line contains an integer
+T
+ denoting the number of test cases.
+For each of the next
+T
+ lines
+3
+ ​space-separated integers are provided representing the values of
+N
+￼,
+M
+￼, and
+K
+￼ respectively
+
+Output format
+For each test case on a new line, print the count of cars with the same speed.
+
+Constraints
+1
+<=
+T
+<=
+10
+
+1
+<=
+N
+<=
+1000
+
+1
+<=
+M
+<=
+1000
+
+1
+<=
+K
+<=
+10
+9
+
+Time Limit
+1
+ ​secon
+
+Example
+Input
+2
+3 4 50
+4 5 200
+
+Output
+4
+10
+
+Sample test case explanation
+T
+=
+2
+
+N
+=
+3
+,
+M
+=
+4
+,
+K
+=
+50
+
+BMW
+=
+[
+3
+,
+6
+,
+9
+,
+12
+,
+.
+.
+.
+.
+.
+.
+.
+,
+48
+]
+
+Audi
+=
+[
+4
+,
+8
+,
+12
+,
+16
+,
+.
+.
+.
+.
+.
+.
+.
+,
+48
+]
+
+Common speeds are
+=
+12
+,
+24
+,
+36
+,
+48
+. So the answer is
+4
+.

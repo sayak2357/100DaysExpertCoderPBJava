@@ -1,0 +1,111 @@
+Hero Villain
+PrpeBuddy has
+N
+ hero figures, each hero has some power represented by a number. Tina wants to know how many villains can defeat all the heroes. A villain can defeat a hero if the power of a villain completely divides the power of a hero. The power of villains ranges from
+1
+ to (power of the first hero).
+Help Tina in finding out the count of villains, such that each villain can defeat all the
+N
+ heroes.
+
+Input format
+The first line contains an integer
+T
+ denoting the number of test cases.
+For each test case
+First line contains an integer
+N
+ representing the number of heroes.
+Second line contains
+N
+ space-separated integers representing the power of each hero.
+
+Output format
+For each test case on a new line, print a single integer representing the count of villains that can defeat all the heroes.
+
+Constraints
+1
+<=
+T
+<=
+5
+
+1
+<=
+N
+<=
+10
+6
+
+1
+<=
+A
+[
+i
+]
+<=
+10
+6
+
+Time Limit
+1
+ second
+
+Example
+Input
+2
+5
+2 4 6 8 10
+3
+91 105 225
+
+Output
+2
+1
+
+Sample test case explanation
+T
+=
+2
+
+N
+=
+5
+, Array
+=
+[
+2
+,
+4
+,
+6
+,
+8
+,
+10
+]
+, villains with powers
+1
+ and
+2
+ can defeat all the heroes. So
+2
+ is the answer.
+N
+=
+3
+, Array
+=
+[
+91
+,
+105
+,
+225
+]
+, a villain with power
+=
+1
+ is the only villain that can defeat all the heroes. So
+1
+ is the answer.
