@@ -1,0 +1,14 @@
+[I 18:39:50.958 NotebookApp] Serving notebooks from local directory: /home/gly/learn/prepBytes/java/100DaysExpertCoderPBJava/1_arrays
+[I 18:39:50.958 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 18:39:50.958 NotebookApp] http://localhost:8888/?token=92cb0f7343ca0e67d9b8e00a3630b175fdd1529a071a5b20
+[I 18:39:50.958 NotebookApp]  or http://127.0.0.1:8888/?token=92cb0f7343ca0e67d9b8e00a3630b175fdd1529a071a5b20
+[I 18:39:50.958 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:39:50.977 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/gly/.local/share/jupyter/runtime/nbserver-22600-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=92cb0f7343ca0e67d9b8e00a3630b175fdd1529a071a5b20
+     or http://127.0.0.1:8888/?token=92cb0f7343ca0e67d9b8e00a3630b175fdd1529a071a5b20
+[I 19:44:41.084 NotebookApp] 302 GET / (127.0.0.1) 0.670000ms
+[I 19:53:25.756 NotebookApp] 302 GET / (127.0.0.1) 0.740000ms

@@ -1,0 +1,57 @@
+Maximize the Problems
+You are given
+n
+ problems numbered
+1
+ to
+n
+ where
+i
+t
+h
+ problem requires
+5
+∗
+i
+ time to solve. You are also given an integer
+k
+.  You need to solve the maximum number of problems such that the time required to solve them is less than or equal to
+240
+−
+k
+.
+
+Input:
+First line contains
+2
+ space separated integer
+n
+ and
+k
+.
+
+Output:
+Print a single integer denoting the maximum number of problems solved.
+
+Constraints:
+1
+≤
+n
+≤
+10
+
+1
+≤
+k
+≤
+240
+
+Time Limit
+1 second
+
+Example
+Sample Input
+3 222
+
+Sample Output
+2
