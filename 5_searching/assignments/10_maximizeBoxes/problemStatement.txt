@@ -1,0 +1,148 @@
+Maximize The Boxes
+You are given
+3
+ types of chocolates
+A
+,
+B
+,
+C
+ with frequencies
+f
+A
+,
+f
+B
+,
+f
+C
+. You need to pack these chocolates in a box. The constraints of the box are as follows:
+A box should contains exactly
+3
+ chocolates and it should contain atleast
+1
+ type of chocolate
+A
+ and
+1
+ type of chocolate
+B
+. Like
+(
+A
+,
+B
+,
+C
+)
+ ,
+(
+A
+,
+A
+,
+B
+)
+,
+(
+A
+,
+B
+,
+B
+)
+ types of chocolate boxes are allowed. However
+(
+C
+,
+C
+,
+A
+)
+ ,
+(
+A
+,
+A
+,
+A
+)
+ etc. are not allowed.
+Your aim is to maximize the number of boxes for given
+f
+A
+,
+f
+B
+,
+f
+C
+.
+You would be asked
+q
+ queries.
+
+Input:
+First line contains
+q
+, the number of queries.
+q
+ ​lines follow:
+Each line contains
+3
+￼ space-separated integers denoting
+f
+A
+￼,
+f
+B
+￼,
+f
+C
+￼
+
+Output:
+Output
+q
+ lines. Each line denoted the answer for that query i.e. the maximum number of boxes that can be formed.
+
+Constraints:
+1
+≤
+q
+≤
+10
+5
+
+0
+≤
+f
+A
+,
+f
+B
+,
+f
+C
+≤
+10
+5
+
+Time Limit
+1 second
+
+Example
+Input
+5
+4 2 1
+5 4 0
+1 3 1
+2 2 2
+2 0 1
+
+Output
+2
+3
+1
+2
+0

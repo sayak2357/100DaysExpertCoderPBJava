@@ -1,0 +1,60 @@
+Stock Market
+If you have to make money, go to the stock market and if you have to lose money then also go to the stock market. Tina recently read this line and she wants to make money so she goes to the stock market. In the stock market, you buy and sell a stock. Now, she is given a list of price predictions of stock for next few days and since she is a computer programmer she wants to use her coding skills to find out what could be the maximum profit she could make out of given stock prices. There are a few rules she has to follow :
+
+A new transaction can only start after the previous transaction is complete. i.e. we can only hold at-most one share at a time.
+We are allowed to make unlimited stock transactions.
+Input format
+First line contains an integer
+T
+, number of test cases. Then follows
+T
+ test cases. Each test case consists of two lines.
+First line contains
+N
+.
+Second lines contain
+N
+ space separated integers.
+
+Output format
+Print
+T
+ lines, each containing maximum profit that can be gained.
+
+Constraints
+1
+<=
+T
+<=
+10
+
+1
+<=
+n
+<
+2
+∗
+10
+6
+
+1
+<=
+A
+[
+i
+]
+<
+10
+7
+
+Example
+Input
+2
+8
+1 2 5 8 7 6 9 5
+5
+1 2 3 4 5
+
+Output
+10
+4

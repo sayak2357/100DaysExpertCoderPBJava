@@ -1,0 +1,90 @@
+Number of Chocolates
+You are given an array of prices of chocolates. The length of array is
+N
+ (given). You need to answer
+q
+ queries. Each query consists of single integer
+x
+ denoting the amount you have. Now you need to output the number of chocolates you can choose from to buy.
+
+Input:
+First line contains one integer
+N
+ denting the size of array.
+Second line contains
+N
+ space-separated integers
+a
+[
+i
+]
+,
+i
+=
+1
+t
+o
+N
+ denoting the cost of chocolates.
+Third line contains a single integer
+q
+,
+q
+ lines follow each denoting an integer
+x
+.
+
+Output:
+Print
+q
+ lines denoting the answer for that query.
+
+Constraints:
+1
+≤
+n
+≤
+10
+5
+
+1
+≤
+a
+[
+i
+]
+≤
+10
+5
+
+1
+≤
+q
+≤
+10
+5
+
+1
+≤
+x
+≤
+10
+5
+
+Time Limit
+2 seconds
+
+Sample Input
+3
+6 3 1
+4
+4
+1
+5
+2
+
+Sample Output
+2
+1
+2
+1
