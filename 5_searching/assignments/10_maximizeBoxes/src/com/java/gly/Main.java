@@ -11,24 +11,13 @@ public class Main {
             int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
             int min = Integer.min(a,b);
             int max = Integer.max(a,b);
-            int box = 0;
-            while(min>0 && max>0){
-                min--;
-                max--;
-                if(c>0)
-                    c--;
-                else{
-                    if(max>0) {
-                        max--;
-                        max = Integer.max(max, min);
-                        min = Integer.min(max, min);
-                    }
-                    else
-                        break;
-                }
-                box++;
+            int minAB = Integer.min(min,max);
+            if(minAB<=c)
+                System.out.println(minAB);
+            else {
+                int box = Integer.min(minAB,(a+b+c)/3);
+                System.out.println(box);
             }
-            System.out.println(box);
         }
     }
 }
