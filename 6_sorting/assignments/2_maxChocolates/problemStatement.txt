@@ -1,0 +1,63 @@
+Maximum Chocolates
+Tina and Rahul have got
+N
+ bags of chocolates. Both of them love chocolates and want to get the maximum number of chocolates for themselves. So, they came up to an agreement of choosing chocolate bags. They will take the chocolate bags in turns. In each turn, one of them can choose one of the remaining bags and keep it with herself/himself.
+
+PrepBuddy wants to know the maximum number of chocolates that can Tina collect assuming that Tina takes the first turn.
+
+Input
+The first line contains an integer
+T
+, number of test cases. Then follows
+T
+ test cases. Each test case consists of two lines.
+The first line contains
+N
+ i.e total number of bags.
+Second lines contain
+N
+ space-separated positive integers
+A
+[
+i
+]
+ denote the number of chocolates in each bag.
+
+Output
+The output contains t lines, each printing the maximum no. of chocolates that Tina can collect.
+
+Constraints
+1
+<=
+T
+<=
+10
+
+1
+<=
+N
+<=
+10
+6
+
+1
+<=
+A
+[
+i
+]
+<=
+10
+9
+
+Example
+Input
+2
+3
+1 2 3
+3
+1 2 1
+
+Output
+4
+3
