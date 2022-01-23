@@ -1,0 +1,110 @@
+Copying Hero
+Arnab is given an array of integers of size
+N
+. Now Arnab is jealous of the hero of the class who also has an array of size
+N
+ which contains numbers from
+1
+ to
+N
+ and the frequency of every element is
+1
+.
+
+Arnab wants to make his array similar to the Hero's array if it's not already same, containing numbers from
+1
+ to
+N
+ and the frequency of every element is
+1
+, so that he can be the new hero.
+
+Arnab can either increment or decrement the value of element in his array to make it same as Hero's array, Every increment and decrement of the array element costs Arnab
+1
+ unit of his money. Arnab wants to spend the minimum amount of money, help him out.
+
+Input format
+First line contains integer
+T
+, number of testcase.
+For each test case :
+The first line contains a number
+N
+.
+The second line contains
+N
+ space-separated integers.
+
+Output format
+For each test case print the minimum amount of money required.
+
+Constraints:
+1
+<=
+T
+<=
+10
+
+1
+<=
+N
+<=
+10
+6
+
+1
+<=
+A
+[
+i
+]
+<=
+10
+5
+
+Time Limit
+1 second
+
+Example
+Input
+1
+5
+8 4 2 1 9
+
+Output
+9
+
+Explanation
+Arnab will change
+8
+ to
+3
+ and
+9
+ to
+5
+
+3
+,
+4
+,
+2
+,
+1
+,
+5
+.
+So the total cost in curred will be
+(
+8
+−
+3
+)
++
+(
+9
+−
+5
+)
+=
+9
