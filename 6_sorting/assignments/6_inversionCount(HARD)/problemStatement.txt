@@ -1,0 +1,156 @@
+Inversion Count on set bites
+You are given an array
+A
+ containing
+N
+ disitnct Integers. We called inversion if two elements
+A
+[
+i
+]
+ and
+A
+[
+j
+]
+ form an inversion if
+A
+[
+i
+]
+>
+A
+[
+j
+]
+ and
+i
+<
+j
+.
+
+Your task is to derive a sequence from the given array
+A
+. The output is the number of inversion count in the derived sequence.
+
+The new derived sequence is counting the number of set bits in the binary representation of the number in the given array
+A
+.
+
+Example:
+Input:
+N
+=
+4
+
+array
+A
+=
+[
+15
+,
+2
+,
+7
+,
+3
+]
+
+Binary representation of the given array number is
+1111
+,
+10
+,
+111
+,
+11
+. The derived sequence is the number of set bits present in the binary representation of array numbers is
+[
+4
+,
+1
+,
+3
+,
+2
+]
+. The total number of inversion coucn is
+4
+
+(
+4
+,
+1
+)
+,
+(
+4
+,
+3
+)
+,
+(
+4
+,
+2
+)
+,
+(
+3
+,
+2
+)
+
+
+Input Format
+First line contains an integer
+T
+, denoting the number of test cases.
+For each test cases:
+The first line contains an integer
+N
+, the size of the array
+A
+.
+The second line contains
+N
+ space separated integers.
+
+Output Format
+For each test case, print a single integer indicating the number of inversion count in the derived sequence.
+
+Constraints
+1
+<=
+T
+<=
+10
+
+1
+<=
+N
+<=
+10
+5
+
+1
+<=
+A
+[
+i
+]
+<=
+10
+6
+
+Time limit
+1 second
+
+Example
+Input
+1
+4
+15 2 7 3
+
+Output
+4

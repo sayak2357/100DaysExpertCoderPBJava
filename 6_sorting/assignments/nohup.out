@@ -1,0 +1,22 @@
+[I 18:34:38.294 NotebookApp] The port 8888 is already in use, trying another port.
+[I 18:34:38.294 NotebookApp] The port 8889 is already in use, trying another port.
+[I 18:34:38.298 NotebookApp] Serving notebooks from local directory: /home/gly/learn/prepBytes/java/100DaysExpertCoderPBJava/6_sorting/assignments
+[I 18:34:38.298 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 18:34:38.298 NotebookApp] http://localhost:8890/?token=13df46f4d305ccace6afdf11ff4182c5770b6236baee123b
+[I 18:34:38.298 NotebookApp]  or http://127.0.0.1:8890/?token=13df46f4d305ccace6afdf11ff4182c5770b6236baee123b
+[I 18:34:38.298 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 18:34:38.325 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/gly/.local/share/jupyter/runtime/nbserver-45384-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8890/?token=13df46f4d305ccace6afdf11ff4182c5770b6236baee123b
+     or http://127.0.0.1:8890/?token=13df46f4d305ccace6afdf11ff4182c5770b6236baee123b
+[I 18:34:44.497 NotebookApp] Creating new notebook in 
+[I 18:34:45.390 NotebookApp] Kernel started: fd072bdd-0a02-401e-80ef-b8e9d1e897da, name: python3
+[W 18:34:45.407 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20220123183438 (127.0.0.1) 12.930000ms referer=http://localhost:8890/notebooks/Untitled.ipynb?kernel_name=python3
+[I 18:36:45.404 NotebookApp] Saving file at /6_inversionCount(HARD).ipynb
+[I 18:38:45.409 NotebookApp] Saving file at /6_inversionCount(HARD).ipynb
+[I 18:40:45.404 NotebookApp] Saving file at /6_inversionCount(HARD).ipynb
+[I 18:42:45.424 NotebookApp] Saving file at /6_inversionCount(HARD).ipynb
+[I 19:15:48.648 NotebookApp] Starting buffering for fd072bdd-0a02-401e-80ef-b8e9d1e897da:dbdfddf7f66e45ccabb4d9f20b27c3d7
