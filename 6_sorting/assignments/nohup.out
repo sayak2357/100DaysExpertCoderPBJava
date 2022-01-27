@@ -20,3 +20,21 @@
 [I 18:40:45.404 NotebookApp] Saving file at /6_inversionCount(HARD).ipynb
 [I 18:42:45.424 NotebookApp] Saving file at /6_inversionCount(HARD).ipynb
 [I 19:15:48.648 NotebookApp] Starting buffering for fd072bdd-0a02-401e-80ef-b8e9d1e897da:dbdfddf7f66e45ccabb4d9f20b27c3d7
+[I 12:15:02.968 NotebookApp] The port 8888 is already in use, trying another port.
+[I 12:15:02.969 NotebookApp] Serving notebooks from local directory: /home/gly/learn/prepBytes/java/100DaysExpertCoderPBJava/6_sorting/assignments
+[I 12:15:02.969 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 12:15:02.969 NotebookApp] http://localhost:8889/?token=25f033426243b4ca822e641ebc3a306322b741a8b0bfa2bc
+[I 12:15:02.969 NotebookApp]  or http://127.0.0.1:8889/?token=25f033426243b4ca822e641ebc3a306322b741a8b0bfa2bc
+[I 12:15:02.969 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:15:02.989 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/gly/.local/share/jupyter/runtime/nbserver-105006-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=25f033426243b4ca822e641ebc3a306322b741a8b0bfa2bc
+     or http://127.0.0.1:8889/?token=25f033426243b4ca822e641ebc3a306322b741a8b0bfa2bc
+[W 12:15:09.284 NotebookApp] Notebook 5_pokemon(HARD).ipynb is not trusted
+[I 12:15:09.477 NotebookApp] Kernel started: 8f913c19-75ee-43ae-9b9d-a56462b75c82, name: python3
+[W 12:15:09.510 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20220126121502 (127.0.0.1) 16.530000ms referer=http://localhost:8889/notebooks/5_pokemon(HARD).ipynb
+[I 12:17:09.720 NotebookApp] Saving file at /5_pokemon(HARD).ipynb
+[I 12:23:59.129 NotebookApp] Starting buffering for 8f913c19-75ee-43ae-9b9d-a56462b75c82:0b0f5c69b13b49f08e8021b1720a26a7
