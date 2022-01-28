@@ -11,23 +11,24 @@ public class Main {
         int tc = sc.nextInt();
         while(tc-->0){
             int n = sc.nextInt();
-            Integer[] arnab =  new Integer[n];
-            Integer[] dp = new Integer[n];
+            int[] arnab =  new int[n];
+            int[] dp = new int[n];
             for(int i=0;i<n;i++){
                 arnab[i] = sc.nextInt();
             }
             for(int i=0;i<n;i++){
                 dp[i] = sc.nextInt();
             }
-            Arrays.sort(arnab, Collections.reverseOrder());
-            Arrays.sort(dp, Collections.reverseOrder());
-            int wins = 0, dpPointer = 0;
+            Arrays.sort(arnab);
+            Arrays.sort(dp);
+            int wins = 0, arPointer = 0;
             for(int i=0;i<n;i++){
-                while(dpPointer<n && dp[dpPointer]>=arnab[i]){
-                    dpPointer++;
+                while(arPointer<n && arnab[arPointer]<=dp[i]){
+                    arPointer++;
                 }
-                if(dpPointer<n){
+                if(arPointer<n){
                     wins++;
+                    arPointer++;
                 }
                 else
                     break;
@@ -35,8 +36,8 @@ public class Main {
             System.out.println(wins);
         }
     }
-    private static void printArray(Integer[] arr){
-        for(Integer e: arr){
+    private static void printArray(int[] arr){
+        for(int e: arr){
             System.out.println(e);
         }
     }
