@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt(), M = sc.nextInt(), X = sc.nextInt(), Y = sc.nextInt();
-        int answer = 0, left = 0, right = N;
+        long N = sc.nextInt(), M = sc.nextInt(), X = sc.nextInt(), Y = sc.nextInt();
+        long answer = 0, left = 0, right = N;
         while(left<=right){
-            int mid = (left+right)/2;
+            long mid = (left+right)/2;
             if(isFeasible(N,M,X,Y,mid)){
                 answer = mid;
                 left = mid+1;
@@ -20,8 +20,8 @@ public class Main {
         }
         System.out.println(answer);
     }
-    private static boolean isFeasible(int n, int m, int x, int y, int temp){
-        int requiredGem = x*temp, availableGem = m + (n-temp)*y;
+    private static boolean isFeasible(long n, long m, long x, long y, long temp){
+        long requiredGem = x*temp, availableGem = m + (n-temp)*y;
         return requiredGem<=availableGem;
     }
 }

@@ -1,0 +1,113 @@
+Bundles of Sticks
+PrepBuddy has
+N
+ sticks having different heights. He wants to create a bundle of
+K
+ sticks such that all the
+k
+ sticks have the same height. He can cut the stick into as many pieces as he wants (provided the height of the stick should remain an integer).
+He asks for your assistance in choosing the maximum height of the stick for forming the bundle of
+K
+ sticks.
+
+Input Format
+First-line contains 2 integers
+N
+ and
+K
+ followed by an array of
+N
+ integers.
+
+Output Format
+If there is no solution print
+0
+, else print the required answer.
+
+Constraints
+1
+<=
+N
+<=
+10
+5
+
+1
+<=
+K
+<=
+10
+9
+
+Time Limit
+ 1 second
+
+Example
+Sample Input-1
+3 4
+15 10 8
+
+Sample Output-1
+7
+
+Sample Input-2
+3 4
+100 5 10
+
+Sample Output-2
+25
+
+Sample test case Explanation
+For the first case
+
+K
+=
+4
+
+15
+ ​→
+7
+,
+7
+,
+1
+￼
+10
+￼ ​
+7
+,
+3
+
+8
+
+￼
+7
+,
+1
+→ ￼
+so we ha
+4
+e ￼ sticks of leng
+7
+h
+
+For the second case
+
+K
+=
+4
+
+100
+ ​→
+25
+,
+25
+,
+25
+,
+25
+￼
+So we have
+4
+￼ sticks of lenght
+25

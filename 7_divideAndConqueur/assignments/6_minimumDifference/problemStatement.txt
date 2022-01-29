@@ -1,0 +1,96 @@
+Minimum Difference
+Arnab is given an array of length
+n
+ and a number
+x
+.
+Help Arnab Find three integers in the array whose sum is closest to
+x
+.
+Print the minimum absolute difference between the sum and the integer
+x
+
+Input format
+First line contains integer
+t
+, number of testcases.
+For each test case,
+The first line contains an integer
+n
+.
+The second line contains
+n
+ space-separated integers.
+The third line contains a single integer, value of
+x
+.
+
+Output format
+For each test case print the minimum absolute difference difference.
+
+Constraints:
+1
+<=
+t
+<=
+5
+
+5
+<=
+n
+<=
+3
+∗
+10
+4
+
+1
+<=
+A
+[
+i
+]
+<
+10
+5
+
+1
+<=
+x
+<=
+10
+6
+
+Sum of
+N
+ over all test cases does not exceed
+5
+∗
+10
+4
+.
+
+Example
+Input
+1
+5
+1 2 5 9 12
+15
+
+Output
+0
+
+Sample test case explanation
+1
++
+5
++
+9
+=
+15
+
+15
+−
+15
+=
+0

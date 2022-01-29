@@ -1,0 +1,90 @@
+Naruto and Sasuke
+Naruto and Sasuke are two Anime characters who have their power levels as
+A
+ and
+B
+. They got into some fight and the only way to stop their fight is to make their power level equal.
+You love both the characters and don't want them to fight. You have
+K
+ gems. Each gem can increase the power of Naruto by
+X
+ and the power of Sasuke by
+Y
+.
+Your goal is to spend all the gems and bring the power of both the characters to the same level.
+
+Input Format
+First and only line contains
+5
+ integers
+A
+,
+B
+,
+K
+,
+X
+,
+Y
+.
+
+Output Format
+Print a single integer representing the number of gems you spend on the power level of Naruto.
+If there is no solution, output
+−
+1
+.
+
+Constraints
+
+1
+<=
+A
+,
+B
+,
+K
+,
+X
+,
+Y
+<=
+10
+9
+
+Time Limit
+ 1 second
+
+Example
+Sample Input
+14 12 6 3 2
+
+Sample Output
+2
+
+Sample test case Explanation
+For Naruto, using
+2
+ gems
+14
++
+2
+∗
+3
+=
+20
+
+For Sasuke, using the remaining
+4
+ gems
+12
++
+4
+∗
+2
+=
+20
+
+Number of gems spent on Naruto =
+2
+.

@@ -1,0 +1,108 @@
+Minimum value
+PrepBuddy has a string
+S
+ containing only lowercase alphabets. A character is called PrepStar if it appears in every substring of
+S
+ with length at-least
+P
+. He asks you to find the minimum possible
+P
+ such that there exists at least one PrepStar character in all the substrings of
+S
+ with length at-least
+P
+.
+
+Input Format :
+The first line of the input contains an integer
+T
+ denoting the number of test cases.
+Each of the next
+T
+ lines contains a string
+S
+.
+
+Output Format :
+For each test case print the minimum possible
+P
+.
+
+Constraints
+
+1
+<=
+T
+<=
+20
+
+1
+<=
+|
+S
+|
+<=
+10
+5
+ ​, where
+|
+S
+|
+￼ de0notes the length of the string
+
+Time Limit
+
+1
+ second
+
+Example
+Sample Input :
+1
+mnopq
+
+Sample Output :
+3
+
+Explanation :
+Every substring of length atleast
+3
+ contains character 'o'.
+"
+m
+n
+o
+"
+,
+"
+n
+o
+p
+"
+,
+"
+o
+p
+q
+"
+,
+"
+m
+n
+o
+p
+"
+,
+"
+n
+o
+p
+q
+"
+,
+"
+m
+n
+o
+p
+q
+"
