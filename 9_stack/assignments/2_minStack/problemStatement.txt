@@ -1,0 +1,124 @@
+GetMinimum Element From Stack
+ Abhishek went for an interview at an IT company. The interviewer asks him to design a Data Structure that performs the Stack operation like push(), pop() and one more operation getMin(), getMin() function should return the minimum element from the stack. The interviewer also told him that all these operations must be in
+O
+(
+1
+)
+ time and use only stack data structure.
+
+ Note: You have to answer the question according to query.
+    You will get four types of query.
+
+1. push(x) - Push element x onto stack.
+2. pop() - Removes the element on top of the stack.
+3. top() - Get the top element.
+4. getMin() - Get the minimum element in the stack.
+ Expected Time Complexity for each query is O(1)
+
+Note: The Interviewer did not allow you to use any other data structure except stack.
+
+Input Format
+The first line contains an integer
+Q
+ denoting the number of the queries. Then the next
+Q
+ line follows. For query
+1
+ you will get two inputs
+1
+ and a number to insert in the stack. Rest
+2
+,
+3
+ and
+4
+ you will get only query number, So first take an input query number and if the query number is
+1
+ then take another input otherwise don't.
+
+Output Format
+For each query operation, if you get the query
+3
+ then print the top element of the stack, if query
+4
+ then print minimum element from the stack, if the Stack is empty and if you will get query
+2
+,
+3
+ or
+4
+ then print
+−
+1
+.
+
+Constraints
+1
+<=
+Q
+<=
+10
+5
+
+
+Time Limit
+1 second
+
+Example
+Input
+8
+1 2
+1 5
+4
+2
+1 3
+1 1
+4
+3
+
+Output
+2
+1
+1
+
+
+
+
+
+
+
+
+
+
+20
+3
+1 10
+4
+2
+4
+1 19
+4
+3
+1 15
+4
+1 20
+1 21
+4
+2
+3
+1 1
+1 2
+4
+2
+4
+o/p
+-1
+10
+-1
+19
+19
+15
+15
+20
+1
+1

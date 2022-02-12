@@ -1,0 +1,81 @@
+Science Exhibition
+Rahul and Amit are best friends, they are working on their annual science exhibition for water harvesting. The idea of their project is that the person who stores maximum water wins the exhibition. Rahul and Amit are using different combinations of elevations of reservoirs to store water. Elevation combinations are given in form of array
+A
+[
+]
+ consisting of non-negative integers where
+A
+[
+i
+]
+ represents the height of the elevations at index
+i
+. You have to find who wins this science exhibition in each round, if there is a tie print -1.
+
+Note:- Both are allowed to take as many elevations they want.
+
+Input Format
+The first line contains an integer
+N
+ the length of elevations taken by Rahul.
+The second line contains array
+R
+[
+]
+ where
+R
+[
+i
+]
+ represents the height of the elevations at index
+i
+ selected by Rahul.
+The third line contains an integer
+M
+ the length of elevations taken by Amit.
+The fourth line contains array
+A
+[
+]
+ where
+A
+[
+i
+]
+ represents the height of the elevations at index
+i
+ selected by Amit.
+
+Ouput Format
+Print the name of the person who wins this exhibition in each round and by how much in the same line, if there is a tie print -1.
+
+Constraints
+1
+<=
+N
+,
+M
+<=
+500
+
+0
+<=
+A
+[
+i
+]
+<=
+500
+
+Time Limit
+ 1 second
+
+Example
+Input
+4
+7 4 0 9
+12
+0 1 0 2 1 0 1 3 2 1 2 1
+
+Output
+Rahul 4

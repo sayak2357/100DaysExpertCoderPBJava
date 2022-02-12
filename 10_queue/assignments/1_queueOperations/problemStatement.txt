@@ -1,0 +1,71 @@
+Operations on Queue
+Prepbuddy loves to learn new data structures every week. So recently, he started learning the queue data structure and wants to explore it more. So for this, he wants to perform
+N
+ types of operations on the queue. The operations are of the following types:
+
+E
+
+X
+: Enqueue integer
+X
+ in the queue and print the new size of the queue.
+D
+: Dequeue from the queue and print the element that is deleted and the new size of the queue separated by space. If there is no element in the queue then print
+1
+ in place of the deleted element.
+
+Since Prepbuddy has not fully understood the queue data structure till now, so he wants your help in finding the solution. Help him find the solution.
+
+Input Format
+The first line of the input contains a single integer
+N
+, where
+N
+ denotes the total number of operations to be performed.
+Each of the following
+N
+ lines contains one of the operations as mentioned above.
+
+Output Format
+For each Enqueue operation, print the new size of the queue. And for each dequeue operation, print two integers, the deleted element
+(
+1
+, if the queue is empty
+)
+ and the new size of the queue.
+
+Constraints
+1
+≤
+N
+≤
+10
+2
+
+1
+≤
+X
+≤
+10
+2
+
+Time Limit
+1 second
+
+Example
+Sample Input
+6
+E 23
+E 94
+D
+D
+E 2
+E 48
+
+Sample Output
+1
+2
+23 1
+94 0
+1
+2

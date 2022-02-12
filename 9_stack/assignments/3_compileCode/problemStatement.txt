@@ -1,0 +1,99 @@
+Compile code
+Let say you are building a compiler. The compiler you are building only understands angular brackets
+<
+ and
+>
+.
+Since you must have already written a program in C, C++ or Java, you know that every opening curly bracket
+{
+ should have corresponding closing
+}
+ curly bracket else you get a compilation error.
+
+Similary the compiler that you are building will give compilation error if every opening angular bracket
+<
+ does not have a corresponding
+>
+ closing bracket.
+
+You aks your friends to write a program for this compiler using only angular brackets and they being a good friend have given you few codes. It might happen that if you compile the code it might give an error but if you compile its prefix it might run. Given a code you have to find the length of the longest prefix. In case no such prefix exists just output
+0
+.
+
+Note:
+<<><<
+ ,
+>><<
+ will give compilation error, while
+<>
+,
+<><><>
+,
+<<<>>>
+ will not.
+
+Input Format
+The first line contains an integer
+T
+, number of test cases. Then follows
+T
+ test cases.
+The first line of each test case contains an integer
+N
+, represents the length of code.
+The second line of each test case contains code
+C
+ shared by your friend.
+
+Output Format
+The output contains
+T
+ lines, each line containing the length of the longest prefix.
+
+Constraints
+1
+<=
+T
+<=
+500
+
+1
+<=
+N
+<=
+10
+5
+
+Time Limit
+1 second
+
+Example
+Input
+3
+4
+<<>>
+2
+><
+4
+<>>>
+
+Output
+4
+0
+2
+
+Sample test case explanation
+In the 1st test case, the whole string is error-free. So, the longest prefix is the string itself.
+Ans =
+4
+.
+
+In the 2nd test case, there is no prefix which is error-free.
+Ans =
+0
+.
+
+In 3rd test case, <> longest prefix is valid, So,
+Ans =
+2
+.
