@@ -22,14 +22,14 @@ public class Main {
                     i+=2;
                 }
                 else{
-                    System.out.println(top());
+                    top();
                     i++;
                 }
             }
         }
     }
     private static void push(int num){
-        if(top<1000){
+        if(top<999){
             queue[++top] = num;
         }
         else{
@@ -38,17 +38,16 @@ public class Main {
         return;
     }
     private static void pop(){
-        if(top>0)
+        if(top>=0)
             top--;
         else
             System.out.println("OOPS");
         return;
     }
-    private static int top(){
+    private static void top(){
         if(top>=0)
-            return queue[top];
+            System.out.println(queue[top]);
         else
             System.out.println("OOPS");
-        return -1;
     }
 }

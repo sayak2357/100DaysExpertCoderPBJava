@@ -1,0 +1,46 @@
+[I 10:47:42.430 NotebookApp] Serving notebooks from local directory: /home/gly/learn/prepBytes/java/100DaysExpertCoderPBJava/10_queue/assignments
+[I 10:47:42.430 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 10:47:42.430 NotebookApp] http://localhost:8888/
+[I 10:47:42.430 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 10:47:47.986 NotebookApp] Creating new notebook in 
+[I 10:47:48.986 NotebookApp] Kernel started: 93b78839-2fb5-4d82-b299-45acc02ae5ac, name: python3
+[W 10:47:49.000 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20220213104742 (127.0.0.1) 12.110000ms referer=http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+[I 10:49:48.969 NotebookApp] Saving file at /techFest.ipynb
+[I 10:51:48.977 NotebookApp] Saving file at /techFest.ipynb
+[I 10:53:48.968 NotebookApp] Saving file at /techFest.ipynb
+[I 10:55:49.821 NotebookApp] Saving file at /techFest.ipynb
+[I 10:57:49.819 NotebookApp] Saving file at /techFest.ipynb
+[I 10:59:48.962 NotebookApp] Saving file at /techFest.ipynb
+[I 11:01:49.805 NotebookApp] Saving file at /techFest.ipynb
+[I 11:03:14.910 NotebookApp] Starting buffering for 93b78839-2fb5-4d82-b299-45acc02ae5ac:ed2f5e74a76d433f87004a05020cd083
+[I 11:03:15.229 NotebookApp] Kernel restarted: 93b78839-2fb5-4d82-b299-45acc02ae5ac
+[I 11:03:15.260 NotebookApp] Restoring connection for 93b78839-2fb5-4d82-b299-45acc02ae5ac:ed2f5e74a76d433f87004a05020cd083
+[I 11:03:15.728 NotebookApp] Replaying 6 buffered messages
+[I 11:03:31.792 NotebookApp] Starting buffering for 93b78839-2fb5-4d82-b299-45acc02ae5ac:ed2f5e74a76d433f87004a05020cd083
+[I 11:03:32.209 NotebookApp] Kernel restarted: 93b78839-2fb5-4d82-b299-45acc02ae5ac
+[I 11:03:32.241 NotebookApp] Restoring connection for 93b78839-2fb5-4d82-b299-45acc02ae5ac:ed2f5e74a76d433f87004a05020cd083
+[I 11:03:32.756 NotebookApp] Replaying 6 buffered messages
+[I 11:03:48.978 NotebookApp] Saving file at /techFest.ipynb
+[I 11:04:34.528 NotebookApp] Starting buffering for 93b78839-2fb5-4d82-b299-45acc02ae5ac:ed2f5e74a76d433f87004a05020cd083
+[I 11:04:34.845 NotebookApp] Kernel restarted: 93b78839-2fb5-4d82-b299-45acc02ae5ac
+[I 11:04:34.878 NotebookApp] Restoring connection for 93b78839-2fb5-4d82-b299-45acc02ae5ac:ed2f5e74a76d433f87004a05020cd083
+[I 11:04:35.222 NotebookApp] Replaying 3 buffered messages
+[I 11:05:49.812 NotebookApp] Saving file at /techFest.ipynb
+[I 11:12:55.321 NotebookApp] Starting buffering for 93b78839-2fb5-4d82-b299-45acc02ae5ac:ed2f5e74a76d433f87004a05020cd083
+[I 19:09:12.120 NotebookApp] Serving notebooks from local directory: /home/gly/learn/prepBytes/java/100DaysExpertCoderPBJava/10_queue/assignments
+[I 19:09:12.120 NotebookApp] Jupyter Notebook 6.4.0 is running at:
+[I 19:09:12.120 NotebookApp] http://localhost:8888/
+[I 19:09:12.121 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:09:17.451 NotebookApp] Notebook techFest.ipynb is not trusted
+[I 19:09:17.640 NotebookApp] Kernel started: 333778ed-63b4-40d1-8162-5b0ef0b65227, name: python3
+[W 19:09:17.664 NotebookApp] 404 GET /nbextensions/widgets/notebook/js/extension.js?v=20220213190911 (127.0.0.1) 10.880000ms referer=http://localhost:8888/notebooks/techFest.ipynb
+[I 19:11:17.605 NotebookApp] Saving file at /techFest.ipynb
+[I 19:11:55.434 NotebookApp] Kernel interrupted: 333778ed-63b4-40d1-8162-5b0ef0b65227
+[I 19:12:00.647 NotebookApp] Starting buffering for 333778ed-63b4-40d1-8162-5b0ef0b65227:2522eb21061f44539a41d641f2b5239f
+[I 19:12:00.961 NotebookApp] Kernel restarted: 333778ed-63b4-40d1-8162-5b0ef0b65227
+[I 19:12:00.978 NotebookApp] Restoring connection for 333778ed-63b4-40d1-8162-5b0ef0b65227:2522eb21061f44539a41d641f2b5239f
+[I 19:12:01.380 NotebookApp] Replaying 3 buffered messages
+[I 19:13:17.606 NotebookApp] Saving file at /techFest.ipynb
+[I 19:15:17.613 NotebookApp] Saving file at /techFest.ipynb
+[I 19:16:53.782 NotebookApp] Saving file at /techFest.ipynb
+[I 19:16:55.184 NotebookApp] Starting buffering for 333778ed-63b4-40d1-8162-5b0ef0b65227:2522eb21061f44539a41d641f2b5239f
