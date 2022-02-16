@@ -1,0 +1,74 @@
+LEARN II
+Sachin is a competitive programmer. He constantly takes part in Coding Contests on Prepbytes.
+Since joining the platform, he is keeping record of all his rank in the competitions.
+He is trying to improve himself. He does two tasks
+
+1
+:
+ He reads the tutorial and removes the contest from his list as soon as he solves all the questions of that contest.(pop operation represented by
+−
+1
+)
+
+2
+:
+ He wants to know his worst rank in the current list of contests.(Each rank is a positive number and this operation is represented by
+−
+2
+).
+
+He has recently learned deque data structure and wants only to use one deque.
+
+Help him to improve his competitive coding skills by solving this problem in the running stream of input.
+
+Note:- terminate the program when the input is
+−
+3
+
+Input Format:
+Each line contains a single interger
+A
+.
+Terminate the program when input is
+−
+3
+Output Format
+Output a single integer answer for each query of type
+2
+.
+
+Constraints
+1
+<=
+ A
+<=
+10
+3
+
+Time Limit
+1 second
+
+Example
+Input
+300
+200
+100
+450
+-2
+-1
+-2
+350
+-2
+-1
+50
+1
+2
+-2
+-3
+
+Output
+450
+300
+350
+300
+
